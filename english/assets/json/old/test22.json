@@ -1,0 +1,1155 @@
+[{
+        "@number": "1",
+        "@correct": "2",
+        "@unit": "4",
+        "#text": "A new pair of sandals_______quite a lot these days.",
+        "ans": [{
+                "@number": "1",
+                "#text": "cost"
+            },
+            {
+                "@number": "2",
+                "#text": "costs"
+            },
+            {
+                "@number": "3",
+                "#text": "costing"
+            },
+            {
+                "@number": "4",
+                "#text": "are costing"
+            }
+        ]
+    },
+    {
+        "@number": "2",
+        "@correct": "3",
+        "@unit": "4",
+        "#text": "Nobody except my aunt and uncle_______to help me.",
+        "ans": [{
+                "@number": "1",
+                "#text": "willing"
+            },
+            {
+                "@number": "2",
+                "#text": "can willing"
+            },
+            {
+                "@number": "3",
+                "#text": "was willing"
+            },
+            {
+                "@number": "4",
+                "#text": "were willing"
+            }
+        ]
+    },
+    {
+        "@number": "3",
+        "@correct": "1",
+        "@unit": "6",
+        "#text": "After the explosion, one wall of the building_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "collapsed"
+            },
+            {
+                "@number": "2",
+                "#text": "was collapsed"
+            },
+            {
+                "@number": "3",
+                "#text": "was collapsed by the workers"
+            },
+            {
+                "@number": "4",
+                "#text": "has collapsed by the workers"
+            }
+        ]
+    },
+    {
+        "@number": "4",
+        "@correct": "2",
+        "@unit": "8",
+        "#text": "Dennis explained_______in the last meeting.",
+        "ans": [{
+                "@number": "1",
+                "#text": "that us"
+            },
+            {
+                "@number": "2",
+                "#text": "that to us"
+            },
+            {
+                "@number": "3",
+                "#text": "us that"
+            },
+            {
+                "@number": "4",
+                "#text": "to us that"
+            }
+        ]
+    },
+    {
+        "@number": "5",
+        "@correct": "1",
+        "@unit": "10",
+        "#text": "Marcia and I_______friends after a few days.",
+        "ans": [{
+                "@number": "1",
+                "#text": "became"
+            },
+            {
+                "@number": "2",
+                "#text": "became be"
+            },
+            {
+                "@number": "3",
+                "#text": "became being"
+            },
+            {
+                "@number": "4",
+                "#text": "became to be"
+            }
+        ]
+    },
+    {
+        "@number": "6",
+        "@correct": "3",
+        "@unit": "12",
+        "#text": "She couldn't sleep because_______about the test.",
+        "ans": [{
+                "@number": "1",
+                "#text": "thinking"
+            },
+            {
+                "@number": "2",
+                "#text": "her thinking"
+            },
+            {
+                "@number": "3",
+                "#text": "she was thinking"
+            },
+            {
+                "@number": "4",
+                "#text": "was thinking"
+            }
+        ]
+    },
+    {
+        "@number": "7",
+        "@correct": "3",
+        "@unit": "17",
+        "#text": "The Smiths_______the house they're living in now.",
+        "ans": [{
+                "@number": "1",
+                "#text": "aren't owned"
+            },
+            {
+                "@number": "2",
+                "#text": "aren't owning"
+            },
+            {
+                "@number": "3",
+                "#text": "don't own"
+            },
+            {
+                "@number": "4",
+                "#text": "don't have owned"
+            }
+        ]
+    },
+    {
+        "@number": "8",
+        "@correct": "3",
+        "@unit": "18",
+        "#text": "We_______Dick and Angie for about five years.",
+        "ans": [{
+                "@number": "1",
+                "#text": "know"
+            },
+            {
+                "@number": "2",
+                "#text": "are knowing"
+            },
+            {
+                "@number": "3",
+                "#text": "have known"
+            },
+            {
+                "@number": "4",
+                "#text": "have been knowing"
+            }
+        ]
+    },
+    {
+        "@number": "9",
+        "@correct": "1",
+        "@unit": "20",
+        "#text": "My aunt Jessie_______to smoke a lot, I think.",
+        "ans": [{
+                "@number": "1",
+                "#text": "used"
+            },
+            {
+                "@number": "2",
+                "#text": "is used"
+            },
+            {
+                "@number": "3",
+                "#text": "has used"
+            },
+            {
+                "@number": "4",
+                "#text": "was used"
+            }
+        ]
+    },
+    {
+        "@number": "10",
+        "@correct": "3",
+        "@unit": "22",
+        "@rubric": "Choose the right words to complete the question.",
+        "#text": "Is it true that you_______the homework last night?",
+        "ans": [{
+                "@number": "1",
+                "#text": "aren't doing"
+            },
+            {
+                "@number": "2",
+                "#text": "don't do"
+            },
+            {
+                "@number": "3",
+                "#text": "didn't do"
+            },
+            {
+                "@number": "4",
+                "#text": "haven't done"
+            }
+        ]
+    },
+    {
+        "@number": "11",
+        "@correct": "4",
+        "@unit": "23",
+        "#text": "I rushed over to Mark's, but he_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "already left"
+            },
+            {
+                "@number": "2",
+                "#text": "was already left"
+            },
+            {
+                "@number": "3",
+                "#text": "has already left"
+            },
+            {
+                "@number": "4",
+                "#text": "had already left"
+            }
+        ]
+    },
+    {
+        "@number": "12",
+        "@correct": "2",
+        "@unit": "33",
+        "#text": "I wish we_______more money.",
+        "ans": [{
+                "@number": "1",
+                "#text": "have"
+            },
+            {
+                "@number": "2",
+                "#text": "had"
+            },
+            {
+                "@number": "3",
+                "#text": "will have"
+            },
+            {
+                "@number": "4",
+                "#text": "would have"
+            }
+        ]
+    },
+    {
+        "@number": "13",
+        "@correct": "4",
+        "@unit": "38",
+        "#text": "The cleaners don't want to_______come back later.",
+        "ans": [{
+                "@number": "1",
+                "#text": "have"
+            },
+            {
+                "@number": "2",
+                "#text": "have got to"
+            },
+            {
+                "@number": "3",
+                "#text": "have had"
+            },
+            {
+                "@number": "4",
+                "#text": "have to"
+            }
+        ]
+    },
+    {
+        "@number": "14",
+        "@correct": "4",
+        "@unit": "40",
+        "#text": "Someone must_______the key because it isn't here now.",
+        "ans": [{
+                "@number": "1",
+                "#text": "take"
+            },
+            {
+                "@number": "2",
+                "#text": "be taking"
+            },
+            {
+                "@number": "3",
+                "#text": "be taken"
+            },
+            {
+                "@number": "4",
+                "#text": "have taken"
+            }
+        ]
+    },
+    {
+        "@number": "15",
+        "@correct": "4",
+        "@unit": "41",
+        "#text": "If you're over 21, you're_______be able to take care of yourself.",
+        "ans": [{
+                "@number": "1",
+                "#text": "have to"
+            },
+            {
+                "@number": "2",
+                "#text": "ought to"
+            },
+            {
+                "@number": "3",
+                "#text": "should"
+            },
+            {
+                "@number": "4",
+                "#text": "supposed to"
+            }
+        ]
+    },
+    {
+        "@number": "16",
+        "@correct": "1",
+        "@unit": "45",
+        "#text": "We'll have_______money in the bank if you keep spending it.",
+        "ans": [{
+                "@number": "1",
+                "#text": "no"
+            },
+            {
+                "@number": "2",
+                "#text": "no longer"
+            },
+            {
+                "@number": "3",
+                "#text": "none"
+            },
+            {
+                "@number": "4",
+                "#text": "not"
+            }
+        ]
+    },
+    {
+        "@number": "17",
+        "@correct": "4",
+        "@unit": "46",
+        "#text": "Please don't say anything about this,_____?",
+        "ans": [{
+                "@number": "1",
+                "#text": "are you"
+            },
+            {
+                "@number": "2",
+                "#text": "do you"
+            },
+            {
+                "@number": "3",
+                "#text": "have you"
+            },
+            {
+                "@number": "4",
+                "#text": "will you"
+            }
+        ]
+    },
+    {
+        "@number": "18",
+        "@correct": "3",
+        "@unit": "48",
+        "#text": "We didn't like it, and_______did a lot of other people I've talked to.",
+        "ans": [{
+                "@number": "1",
+                "#text": "no"
+            },
+            {
+                "@number": "2",
+                "#text": "no one"
+            },
+            {
+                "@number": "3",
+                "#text": "neither"
+            },
+            {
+                "@number": "4",
+                "#text": "not"
+            }
+        ]
+    },
+    {
+        "@number": "19",
+        "@correct": "3",
+        "@unit": "50",
+        "@rubric": "Choose the right words to complete the question.",
+        "#text": "______of you was here first?",
+        "ans": [{
+                "@number": "1",
+                "#text": "What"
+            },
+            {
+                "@number": "2",
+                "#text": "What one"
+            },
+            {
+                "@number": "3",
+                "#text": "Which"
+            },
+            {
+                "@number": "4",
+                "#text": "Who"
+            }
+        ]
+    },
+    {
+        "@number": "20",
+        "@correct": "4",
+        "@unit": "58",
+        "#text": "I think his answers must_______from someone else's work.",
+        "ans": [{
+                "@number": "1",
+                "#text": "copy"
+            },
+            {
+                "@number": "2",
+                "#text": "be copying"
+            },
+            {
+                "@number": "3",
+                "#text": "have copied"
+            },
+            {
+                "@number": "4",
+                "#text": "have been copied"
+            }
+        ]
+    },
+    {
+        "@number": "21",
+        "@correct": "2",
+        "@unit": "63",
+        "#text": "______mentioned that he was Irish.",
+        "ans": [{
+                "@number": "1",
+                "#text": "I was"
+            },
+            {
+                "@number": "2",
+                "#text": "It was"
+            },
+            {
+                "@number": "3",
+                "#text": "She was"
+            },
+            {
+                "@number": "4",
+                "#text": "We were"
+            }
+        ]
+    },
+    {
+        "@number": "22",
+        "@correct": "3",
+        "@unit": "84",
+        "#text": "______friends got ill after eating at that restaurant.",
+        "ans": [{
+                "@number": "1",
+                "#text": "Some my"
+            },
+            {
+                "@number": "2",
+                "#text": "Some of"
+            },
+            {
+                "@number": "3",
+                "#text": "Some of my"
+            },
+            {
+                "@number": "4",
+                "#text": "Some of them my"
+            }
+        ]
+    },
+    {
+        "@number": "23",
+        "@correct": "3",
+        "@unit": "64",
+        "#text": "We got it to work better by_______it off, then on again.",
+        "ans": [{
+                "@number": "1",
+                "#text": "switch"
+            },
+            {
+                "@number": "2",
+                "#text": "switches"
+            },
+            {
+                "@number": "3",
+                "#text": "switching"
+            },
+            {
+                "@number": "4",
+                "#text": "switched"
+            }
+        ]
+    },
+    {
+        "@number": "24",
+        "@correct": "1",
+        "@unit": "72",
+        "#text": "Mr Mulrooney taught us_______poetry.",
+        "ans": [{
+                "@number": "1",
+                "#text": "Irish"
+            },
+            {
+                "@number": "2",
+                "#text": "a Irish"
+            },
+            {
+                "@number": "3",
+                "#text": "an Irish"
+            },
+            {
+                "@number": "4",
+                "#text": "the Irish"
+            }
+        ]
+    },
+    {
+        "@number": "25",
+        "@correct": "1",
+        "@unit": "72, 74",
+        "#text": "I think Tom's working on a_______tonight.",
+        "ans": [{
+                "@number": "1",
+                "#text": "project"
+            },
+            {
+                "@number": "2",
+                "#text": "research"
+            },
+            {
+                "@number": "3",
+                "#text": "school homework"
+            },
+            {
+                "@number": "4",
+                "#text": "special training"
+            }
+        ]
+    },
+    {
+        "@number": "26",
+        "@correct": "2",
+        "@unit": "88",
+        "#text": "I ended up spending_______this past weekend in bed.",
+        "ans": [{
+                "@number": "1",
+                "#text": "the whole"
+            },
+            {
+                "@number": "2",
+                "#text": "the whole of"
+            },
+            {
+                "@number": "3",
+                "#text": "whole"
+            },
+            {
+                "@number": "4",
+                "#text": "whole of"
+            }
+        ]
+    },
+    {
+        "@number": "27",
+        "@correct": "3",
+        "@unit": "89",
+        "#text": "We were given one piece_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "all"
+            },
+            {
+                "@number": "2",
+                "#text": "both"
+            },
+            {
+                "@number": "3",
+                "#text": "each"
+            },
+            {
+                "@number": "4",
+                "#text": "every"
+            }
+        ]
+    },
+    {
+        "@number": "28",
+        "@correct": "3",
+        "@unit": "93",
+        "#text": "Rosanna earns twice_______I do.",
+        "ans": [{
+                "@number": "1",
+                "#text": "as"
+            },
+            {
+                "@number": "2",
+                "#text": "as much"
+            },
+            {
+                "@number": "3",
+                "#text": "as much as"
+            },
+            {
+                "@number": "4",
+                "#text": "much as"
+            }
+        ]
+    },
+    {
+        "@number": "29",
+        "@correct": "1",
+        "@unit": "98",
+        "#text": "I looked for your book, but couldn't find it_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "anywhere"
+            },
+            {
+                "@number": "2",
+                "#text": "everywhere"
+            },
+            {
+                "@number": "3",
+                "#text": "nowhere"
+            },
+            {
+                "@number": "4",
+                "#text": "somewhere"
+            }
+        ]
+    },
+    {
+        "@number": "30",
+        "@correct": "1",
+        "@unit": "100",
+        "#text": "Be careful, everyone, and keep your bags near_______at all times.",
+        "ans": [{
+                "@number": "1",
+                "#text": "you"
+            },
+            {
+                "@number": "2",
+                "#text": "yours"
+            },
+            {
+                "@number": "3",
+                "#text": "yourself"
+            },
+            {
+                "@number": "4",
+                "#text": "yourselves"
+            }
+        ]
+    },
+    {
+        "@number": "31",
+        "@correct": "3",
+        "@unit": "103",
+        "#text": "______much space left in the suitcase.",
+        "ans": [{
+                "@number": "1",
+                "#text": "Not"
+            },
+            {
+                "@number": "2",
+                "#text": "It wasn't"
+            },
+            {
+                "@number": "3",
+                "#text": "There wasn't"
+            },
+            {
+                "@number": "4",
+                "#text": "Wasn't"
+            }
+        ]
+    },
+    {
+        "@number": "32",
+        "@correct": "3",
+        "@unit": "105",
+        "#text": "She said it was a bargain, but I don't_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "think"
+            },
+            {
+                "@number": "2",
+                "#text": "think it"
+            },
+            {
+                "@number": "3",
+                "#text": "think so"
+            },
+            {
+                "@number": "4",
+                "#text": "think too"
+            }
+        ]
+    },
+    {
+        "@number": "33",
+        "@correct": "1",
+        "@unit": "112",
+        "#text": "Don't make a noise - he's_______at last.",
+        "ans": [{
+                "@number": "1",
+                "#text": "asleep"
+            },
+            {
+                "@number": "2",
+                "#text": "an asleep"
+            },
+            {
+                "@number": "3",
+                "#text": "an asleep boy"
+            },
+            {
+                "@number": "4",
+                "#text": "a boy asleep"
+            }
+        ]
+    },
+    {
+        "@number": "34",
+        "@correct": "1",
+        "@unit": "112",
+        "#text": "Juliet was wearing a_______scarf.",
+        "ans": [{
+                "@number": "1",
+                "#text": "blue and green"
+            },
+            {
+                "@number": "2",
+                "#text": "light and cotton"
+            },
+            {
+                "@number": "3",
+                "#text": "long and white"
+            },
+            {
+                "@number": "4",
+                "#text": "lovely and new"
+            }
+        ]
+    },
+    {
+        "@number": "35",
+        "@correct": "1",
+        "@unit": "114",
+        "#text": "The latest peace proposal has support from the_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "Egyptians"
+            },
+            {
+                "@number": "2",
+                "#text": "Frenches"
+            },
+            {
+                "@number": "3",
+                "#text": "Japaneses"
+            },
+            {
+                "@number": "4",
+                "#text": "Swedishes"
+            }
+        ]
+    },
+    {
+        "@number": "36",
+        "@correct": "2",
+        "@unit": "120",
+        "#text": "Enrico is the best-looking one_______the band.",
+        "ans": [{
+                "@number": "1",
+                "#text": "for"
+            },
+            {
+                "@number": "2",
+                "#text": "in"
+            },
+            {
+                "@number": "3",
+                "#text": "of"
+            },
+            {
+                "@number": "4",
+                "#text": "on"
+            }
+        ]
+    },
+    {
+        "@number": "37",
+        "@correct": "4",
+        "@unit": "130",
+        "@rubric": "Choose the right words to complete the question.",
+        "#text": "Doesn't the Seine flow_______Paris?",
+        "ans": [{
+                "@number": "1",
+                "#text": "across"
+            },
+            {
+                "@number": "2",
+                "#text": "along"
+            },
+            {
+                "@number": "3",
+                "#text": "over"
+            },
+            {
+                "@number": "4",
+                "#text": "through"
+            }
+        ]
+    },
+    {
+        "@number": "38",
+        "@correct": "1",
+        "@unit": "139",
+        "#text": "They weren't willing to_______him to become independent.",
+        "ans": [{
+                "@number": "1",
+                "#text": "help"
+            },
+            {
+                "@number": "2",
+                "#text": "let"
+            },
+            {
+                "@number": "3",
+                "#text": "make"
+            },
+            {
+                "@number": "4",
+                "#text": "see"
+            }
+        ]
+    },
+    {
+        "@number": "39",
+        "@correct": "4",
+        "@unit": "142",
+        "#text": "I'd love_______on a cruise along the coast of Norway.",
+        "ans": [{
+                "@number": "1",
+                "#text": "go"
+            },
+            {
+                "@number": "2",
+                "#text": "going"
+            },
+            {
+                "@number": "3",
+                "#text": "gone"
+            },
+            {
+                "@number": "4",
+                "#text": "to go"
+            }
+        ]
+    },
+    {
+        "@number": "40",
+        "@correct": "1",
+        "@unit": "152",
+        "#text": "Rodney_______that the dog ate his homework.",
+        "ans": [{
+                "@number": "1",
+                "#text": "claimed"
+            },
+            {
+                "@number": "2",
+                "#text": "described"
+            },
+            {
+                "@number": "3",
+                "#text": "spoke"
+            },
+            {
+                "@number": "4",
+                "#text": "talked"
+            }
+        ]
+    },
+    {
+        "@number": "41",
+        "@correct": "2",
+        "@unit": "154",
+        "#text": "They wanted to know who_______with me.",
+        "ans": [{
+                "@number": "1",
+                "#text": "going"
+            },
+            {
+                "@number": "2",
+                "#text": "was going"
+            },
+            {
+                "@number": "3",
+                "#text": "he was going"
+            },
+            {
+                "@number": "4",
+                "#text": "was he going"
+            }
+        ]
+    },
+    {
+        "@number": "42",
+        "@correct": "1",
+        "@unit": "156",
+        "#text": "We suggested_______a taxi to the airport.",
+        "ans": [{
+                "@number": "1",
+                "#text": "taking"
+            },
+            {
+                "@number": "2",
+                "#text": "him take"
+            },
+            {
+                "@number": "3",
+                "#text": "him taking"
+            },
+            {
+                "@number": "4",
+                "#text": "him to take"
+            }
+        ]
+    },
+    {
+        "@number": "43",
+        "@correct": "4",
+        "@unit": "162",
+        "#text": "______you keep it or throw it away doesn't matter to me.",
+        "ans": [{
+                "@number": "1",
+                "#text": "That"
+            },
+            {
+                "@number": "2",
+                "#text": "What"
+            },
+            {
+                "@number": "3",
+                "#text": "Whatever"
+            },
+            {
+                "@number": "4",
+                "#text": "Whether"
+            }
+        ]
+    },
+    {
+        "@number": "44",
+        "@correct": "4",
+        "@unit": "166",
+        "#text": "They said they were sorry about_______they did last night.",
+        "ans": [{
+                "@number": "1",
+                "#text": "it"
+            },
+            {
+                "@number": "2",
+                "#text": "that"
+            },
+            {
+                "@number": "3",
+                "#text": "them"
+            },
+            {
+                "@number": "4",
+                "#text": "what"
+            }
+        ]
+    },
+    {
+        "@number": "45",
+        "@correct": "2",
+        "@unit": "173",
+        "#text": "We didn't like the people we were_____.",
+        "ans": [{
+                "@number": "1",
+                "#text": "working"
+            },
+            {
+                "@number": "2",
+                "#text": "working with"
+            },
+            {
+                "@number": "3",
+                "#text": "working with us"
+            },
+            {
+                "@number": "4",
+                "#text": "working with them"
+            }
+        ]
+    },
+    {
+        "@number": "46",
+        "@correct": "4",
+        "@unit": "178",
+        "#text": "He recommended a good book_______title I've forgotten.",
+        "ans": [{
+                "@number": "1",
+                "#text": "the"
+            },
+            {
+                "@number": "2",
+                "#text": "that"
+            },
+            {
+                "@number": "3",
+                "#text": "which"
+            },
+            {
+                "@number": "4",
+                "#text": "whose"
+            }
+        ]
+    },
+    {
+        "@number": "47",
+        "@correct": "2",
+        "@unit": "180",
+        "@rubric": "Choose the right words to complete the question.",
+        "#text": "Could you bring_______Linda can't fit in her car?",
+        "ans": [{
+                "@number": "1",
+                "#text": "that"
+            },
+            {
+                "@number": "2",
+                "#text": "what"
+            },
+            {
+                "@number": "3",
+                "#text": "which"
+            },
+            {
+                "@number": "4",
+                "#text": "whose"
+            }
+        ]
+    },
+    {
+        "@number": "48",
+        "@correct": "2",
+        "@unit": "189",
+        "#text": "______like to leave soon, if that's OK.",
+        "ans": [{
+                "@number": "1",
+                "#text": "I"
+            },
+            {
+                "@number": "2",
+                "#text": "I'd"
+            },
+            {
+                "@number": "3",
+                "#text": "I'll"
+            },
+            {
+                "@number": "4",
+                "#text": "I'm"
+            }
+        ]
+    },
+    {
+        "@number": "49",
+        "@correct": "3",
+        "@unit": "192",
+        "#text": "Whether_____, Mandy will still want to see us.",
+        "ans": [{
+                "@number": "1",
+                "#text": "not we're late"
+            },
+            {
+                "@number": "2",
+                "#text": "we're late"
+            },
+            {
+                "@number": "3",
+                "#text": "we're late or not"
+            },
+            {
+                "@number": "4",
+                "#text": "we're not late"
+            }
+        ]
+    },
+    {
+        "@number": "50",
+        "@correct": "1",
+        "@unit": "199",
+        "#text": "He'll talk to me after he_______the report.",
+        "ans": [{
+                "@number": "1",
+                "#text": "has read"
+            },
+            {
+                "@number": "2",
+                "#text": "is reading"
+            },
+            {
+                "@number": "3",
+                "#text": "had read"
+            },
+            {
+                "@number": "4",
+                "#text": "will read"
+            }
+        ]
+    }
+]
