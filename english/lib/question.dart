@@ -189,7 +189,7 @@ class _QAState extends State<QA> {
             num[index][4] = true;
           }
           if (!questions[index].isAnswer[secIndx]) {
-            num[index][secIndx] = true;
+            // num[index][secIndx] = true;
           } else {
             num[index][0] = true;
             num[index][1] = true;
@@ -224,9 +224,9 @@ class _QAState extends State<QA> {
       if (questions[index].isAnswer[secIndx]) {
         return Colors.green;
       } else if (num[index][secIndx]) {
-        return Colors.red;
-      } else {
         return Colors.white.withOpacity(0.4);
+      } else {
+        return Colors.red;
       }
     } else {
       return Colors.white.withOpacity(0.4);
