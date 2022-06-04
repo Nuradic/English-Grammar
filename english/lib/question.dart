@@ -34,7 +34,7 @@ class QA extends StatefulWidget {
 
 class _QAState extends State<QA> {
   List<dynamic> qst = [];
-  var mystr = 'Testing 123...';
+
   List<Question> questions = [];
 
   List num = [];
@@ -43,7 +43,7 @@ class _QAState extends State<QA> {
         await DefaultAssetBundle.of(context).loadString(widget.test);
     qst = jsonDecode(tempstr);
     for (int i = 0; i < qst.length; i++) {
-      num.add([false, false, false, false]);
+      num.add([false, false, false, false, false]);
       questions.add(
         Question(
             choose: qst[i]['ans'],
@@ -65,12 +65,14 @@ class _QAState extends State<QA> {
     return Scaffold(
         extendBodyBehindAppBar: true,
         appBar: AppBar(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-            elevation: 0,
-            backgroundColor: Colors.transparent
-            // const Color.fromARGB(255, 12, 155, 150),
-            ),
+          title: const Text("Choose the Best answer"),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+          elevation: 0,
+          backgroundColor:
+              // Colors.transparent
+              const Color.fromARGB(255, 12, 155, 150),
+        ),
         body: getQuestion());
   }
 
@@ -167,7 +169,7 @@ class _QAState extends State<QA> {
     double _width = deviceData.orientation == Orientation.portrait
         ? deviceData.size.width
         : deviceData.size.height;
-    print(deviceData.orientation);
+    // print(deviceData.orientation);
     String? content;
     if (secIndx == 0) {
       content = "A. ${questions[index].choices[secIndx]}";
@@ -183,24 +185,51 @@ class _QAState extends State<QA> {
       margin: EdgeInsets.all(_height * 0.008),
       child: ElevatedButton(
         onPressed: () {
-          num[index][secIndx] = questions[index].isAnswer[secIndx];
-          if (!(questions[index].isAnswer[secIndx])) {}
+          if (!num[index][4]) {
+            num[index][4] = true;
+          }
+          if (!questions[index].isAnswer[secIndx]) {
+            num[index][secIndx] = true;
+          } else {
+            num[index][0] = true;
+            num[index][1] = true;
+            num[index][2] = true;
+            num[index][3] = true;
+          }
+
           setState(() {});
         },
         child: Align(
-            alignment: Alignment.centerLeft,
-            child: Text(content,
-                style: const TextStyle(
-                    color: Color.fromARGB(255, 218, 218, 218)))),
+          alignment: Alignment.centerLeft,
+          child: Text(
+            content,
+            style: const TextStyle(
+              color: Color.fromARGB(255, 218, 218, 218),
+            ),
+          ),
+        ),
         style: ElevatedButton.styleFrom(
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-          primary:
-              num[index][secIndx] ? Colors.red : Colors.white.withOpacity(0.4),
+          primary: answerAuth(index, secIndx),
           elevation: 5,
           fixedSize: Size(_width * 0.8, _height * 0.06),
         ),
       ),
     );
+  }
+
+  answerAuth(int index, int secIndx) {
+    if (num[index][4]) {
+      if (questions[index].isAnswer[secIndx]) {
+        return Colors.green;
+      } else if (num[index][secIndx]) {
+        return Colors.red;
+      } else {
+        return Colors.white.withOpacity(0.4);
+      }
+    } else {
+      return Colors.white.withOpacity(0.4);
+    }
   }
 }

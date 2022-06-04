@@ -1,7 +1,7 @@
 import 'package:english/question.dart';
 import 'package:flutter/material.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-// import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher.dart';
 // import 'package:flutter.io/url_launcher';
 
 class Home extends StatefulWidget {
@@ -23,10 +23,10 @@ class _HomeState extends State<Home> {
     );
   }
 
-  // void _launch(String url) async {
-  //   var _url = Uri.parse(url);
-  //   if (!await launchUrl(_url)) throw 'could not launch $_url';
-  // }
+  void _launch(String url) async {
+    var _url = Uri.parse(url);
+    if (!await launchUrl(_url)) throw 'could not launch $_url';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
     double _width = deviceData.orientation == Orientation.portrait
         ? deviceData.size.width
         : deviceData.size.height;
-    print(_width);
+    // print(_width);
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 12, 155, 150),
@@ -45,6 +45,7 @@ class _HomeState extends State<Home> {
       ),
       body: Center(
         child: SingleChildScrollView(
+          physics: const BouncingScrollPhysics(),
           child: Column(children: [
             Image(
               width: _width,
@@ -83,9 +84,11 @@ class _HomeState extends State<Home> {
           child: Column(children: [
         const DrawerHeader(
           decoration: BoxDecoration(
-              image: DecorationImage(
-                  fit: BoxFit.cover,
-                  image: AssetImage('assets/images/drawerimg.png'))),
+            image: DecorationImage(
+              fit: BoxFit.cover,
+              image: AssetImage('assets/images/drawerimg.png'),
+            ),
+          ),
           // decoration: ,
           child: Align(
               alignment: Alignment.bottomCenter,
@@ -99,7 +102,7 @@ class _HomeState extends State<Home> {
               primary: const Color.fromARGB(255, 12, 155, 150),
             ),
             onPressed: () {
-              // _launch('http://TemariCo.ezyro.com');
+              _launch('http://TemariCo.ezyro.com');
             },
             icon: const Icon(
               Icons.telegram,
